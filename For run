@@ -1,0 +1,3 @@
+gcc expr_calc.c -o expr_calc -lm
+.\expr_calc.exe
+for ryn on acer aspire3 13gen i5 64bites
