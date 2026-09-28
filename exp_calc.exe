@@ -1,0 +1,53 @@
+EXPRESSION CALCULATOR (DSA)
+
+Infix -> Postfix Conversion & Stack Evaluation
+
+1. Evaluate an expression
+2. Show Postfix conversion only
+3. Show supported operators / rules
+4. Exit
+
+Enter your choice:
+
+Supported operators : + - * / % ^ and parentheses ( )
+
+Precedence (high to low):
+^ > * / % > + -
+
+'^' is right associative, others are left associative
+
+Unary +/- supported
+Example:
+-5 + 3
+4 * -2
+
+Example:
+3 + 4 * 2 / (1 - 5) ^ 2
+
+[Error] Empty expression.
+[Error] Unbalanced parentheses in expression.
+[Error] Invalid expression / unsupported character.
+
+
+malloc
+calloc
+free
+memcpy
+atof
+printf/vfprintf
+scanf/vfscanf
+exit
+abort
+Infix   : %s
+Postfix : %s
+Result  : %.6g
+
+[Error] Division / modulo by zero.
+[Error] Malformed expression, cannot evaluate.
+
+Exiting... Thank you for using the Expression Calculator!
+
+Invalid choice. Please select between 1 and 4.
+
+GCC: (GNU) 16.2.0
+
